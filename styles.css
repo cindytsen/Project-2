@@ -14,6 +14,7 @@ header {
 main {
     background-color: cornsilk;
     min-height: 300px;
+    display: flex;
 }
 
 .cards {
@@ -39,4 +40,14 @@ main {
     background-color: rebeccapurple;
     min-height: 300px;
     width: 30%;
+}
+
+.herobox1 {
+    background-color: lightskyblue;
+    flex: 2;
+}
+
+.herobox2 {
+    background-color: seagreen;
+    flex: 1;
 }
