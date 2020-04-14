@@ -20,22 +20,23 @@ main {
     background-color: darkgray;
     min-height: 300px;
     display: flex;
+    justify-content: space-between;
 }
 
 .card1 {
     background-color: palevioletred;
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 
 .card2 {
     background-color: peachpuff;
     min-height: 300px;
-    width: 33.3%
+    width: 30%;
 }
 
 .card3 {
     background-color: rebeccapurple;
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
