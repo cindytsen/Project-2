@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       .badsize {
+           font-size: 30px;
+       }   
+       /* use 'em' or 'rem' = will resize with changed website view (ie. manually make larger) -
+       to accommodate those who need it like visually impaired = is your site accessible to 
+       changes that need to be made for viewing = better for google to recommend your site */
+
+       /* 'rem' is more for it you don't want it to be affected with another of the save div (ie. 2em) -
+       if do not have 'rem' then the program will calculate both 'ems' together than the one 'em' desired
+       = be good websdesigner for visually impaired & complex sites - use rem or em calcuators online*/
+       .goodsize {
+           font-size: 3rem;
+       }
+
+       .mybox {
+           font-size: 2em;
+       }
+    </style>
+
+</head>
+<body>
+    <p class="badsize">Tiny Lady</p>
+    <p class="goodsize">Tiny Lady</p>
+    <div class="mybox">
+        <p class="goodsize">PooBear</p>
+    </div>
+</body>
+</html>
