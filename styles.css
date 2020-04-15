@@ -76,7 +76,21 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
+/* px instead of rem should use to not change the spacing despite the change in font sizes; therefore, use px for spacing and absolute font sizes and relative size */ 
+h2 {
+    font-size: 2rem; /* 52px x 0.0625 = rem */
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;   
+    text-align: center;
+}
+
 p {
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
 }
