@@ -96,8 +96,8 @@ p {
     margin: 10px 30px 20px 30px;
 }
 
-i {
+.cards i {
     font-size: 80px;
     color: white;
-    padding-top: 20px;
+    padding-top: 0px;
 }
