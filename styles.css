@@ -10,6 +10,11 @@ body {
 
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
     width: 1024px;
     min-height: 300px;
@@ -78,10 +83,7 @@ main {
     padding-top: 20px;
 }
 
-.cards a {
-    color: white;
-    text-decoration: none;
-}
+
 .herobox1 {
     flex: 2;
     padding-right: 100px;
@@ -110,3 +112,9 @@ p {
     margin-bottom: 0.5rem;
 }
 
+.button {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;  
+}
