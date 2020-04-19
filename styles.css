@@ -47,6 +47,7 @@ main {
     background-position: bottom; /* add to not have bottom of img cut off */
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(15, 5, 5, 0.247);
 }
 
 .card2 {
@@ -55,6 +56,7 @@ main {
     background-position: bottom; /* add to not have bottom of img cut off */
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(15, 5, 5, 0.247);
 }
 
 .card3 {
@@ -63,6 +65,7 @@ main {
     background-position: bottom; /* add to not have bottom of img cut off */
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(15, 5, 5, 0.247);
 }
 
 .card1, .card2, .card3 {
@@ -95,6 +98,7 @@ h1 {
     font-size: 3.25rem; /* 52px x 0.0625 = rem */
     font-family: 'Playfair Display', serif;
     margin-bottom: 1.5rem;
+    text-shadow: 0px 5px 5px rgba(15, 5, 5, 0.247);
 }
 
 /* px instead of rem should use to not change the spacing despite the change in font sizes; therefore, use px for spacing and absolute font sizes and relative size */ 
@@ -116,6 +120,8 @@ p {
     font-family: 'Playfair Display', serif;
     padding: 11px 25px; 
     display: inline-block;
+    border-radius: 30px 0px;
+    box-shadow: 0px 5px 5px rgba(15, 5, 5, 0.247);
 }
 
 a.button {
