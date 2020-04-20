@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+
 }
 
 body {
@@ -26,7 +26,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
 }
 
 main {
@@ -98,6 +99,7 @@ h1 {
     font-size: 3.25rem; /* 52px x 0.0625 = rem */
     font-family: 'Playfair Display', serif;
     margin-bottom: 1.5rem;
+    margin-top: 2rem;
     text-shadow: 0px 5px 5px rgba(15, 5, 5, 0.247);
 }
 
@@ -126,7 +128,7 @@ p {
 
 a.button {
     margin-top: 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
 }
 
 .navbutton {
@@ -134,4 +136,19 @@ a.button {
     font-family: 'Playfair Display', serif;
     border: 1px solid white;
     padding: 11px 25px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
