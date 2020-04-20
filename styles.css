@@ -129,6 +129,9 @@ a.button {
     margin-bottom: 20px; 
 }
 
-nav a.button {
-    margin-left: 10px;
+.navbutton {
+    margin-left: 2px;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid white;
+    padding: 11px 25px;
 }
