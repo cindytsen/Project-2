@@ -138,6 +138,11 @@ a.button {
     padding: 11px 25px;
 }
 
+.button:hover {
+    background-color:lightblue;
+    transition-duration: 1s;
+}
+
 .testimonials {
     display: flex;
     flex-wrap: wrap;
