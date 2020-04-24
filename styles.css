@@ -136,6 +136,8 @@ a.button {
     font-family: 'Playfair Display', serif;
     border: 1px solid white;
     padding: 11px 25px;
+    display: inline-block;
+    position: relative;
 }
 
 .button:hover {
@@ -161,4 +163,30 @@ a.button {
 .tbox p:last-child {
     font-size: 0.8rem;
     padding-left: 30px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+    padding-top: 15px;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+    margin-left: -26px;
+ }
+
+ .dropdown .navbutton a {
+   color: #FC5E55;
+ }
+
+.dropdown .navbutton:hover {
+    background-color: lightgrey
 }
