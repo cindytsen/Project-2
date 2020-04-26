@@ -197,3 +197,7 @@ a.button {
 .dropdown .navbutton:hover {
     background-color: lightblue;
 }
+
+.inputwrapper {
+    margin-bottom: 20px;
+}
