@@ -1,9 +1,11 @@
 html {
-
+    background-image: linear-gradient(#FC5E55, #FA4083);
 }
 
 body {
-    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-image: url(img/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
@@ -188,5 +190,5 @@ a.button {
  }
 
 .dropdown .navbutton:hover {
-    background-color: lightgrey
+    background-color: lightblue;
 }
