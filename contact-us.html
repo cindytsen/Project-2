@@ -49,6 +49,7 @@
         <div class="main2">
             <h1>Contact Us</h1>
             <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+            <!-- See W3Schools - HTML Forms - HTML Input Types for various ways to add specific fields to your forms -->
             <form action="mail.php" method="post">
                 
                 <div class="inputwrapper">
@@ -77,6 +78,19 @@
 
                     <input type="radio" name="contact-pref" id="email2" value="email">
                     <label for="email2">Email</label>
+                </div>
+
+                <div class="inputwrapper">
+                    <select name="county" id="county">
+                        <option value="Not-Chosen">Choose County</option>
+                        <option value="Limerick">Limerick</option>
+                        <option value="Galway" selected>Galway</option>
+                        <option value="Dublin">Dublin</option>
+
+                        <input type="date" name="" id="">
+                        <input type="color" name="" id="">
+
+                    </select>
                 </div>
 
                 <input type="submit" value="Fire Away">
